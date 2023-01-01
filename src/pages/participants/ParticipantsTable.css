@@ -1,0 +1,56 @@
+.partab-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 11%;
+    margin-right: 5%;
+}
+.partab-header {
+    font-family: BebasNeue-Regular;
+    font-size: 31px;
+    margin-bottom: 22px;
+}
+.partab-list-header-container {
+    display: flex;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 7px;
+}
+.partab-list-header-name {
+    flex: 8;
+    font-family: BebasNeue-Regular;
+    font-size: 22px;
+}
+.partab-list-header-email {
+    flex: 10;
+    font-family: BebasNeue-Regular;
+    font-size: 22px;
+}
+.partab-list-header-wallet {
+    flex: 10;
+    font-family: BebasNeue-Regular;
+    font-size: 22px;
+}
+.partab-userdata-container {
+    display: flex;
+    border-bottom: 1px solid #fff;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+.partab-userdata-name {
+    flex: 8;
+    font-family: AvenirNextCyr-Regular;
+    font-size: 12px;
+    color: #E75626;
+}
+.partab-userdata-email {
+    flex: 10;
+    font-family: AvenirNextCyr-Regular;
+    font-size: 12px;
+    color: #E75626;
+}
+.partab-userdata-wallet {
+    flex: 10;
+    font-family: AvenirNextCyr-Regular;
+    font-size: 12px;
+    color: #E75626;
+}

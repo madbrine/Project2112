@@ -1,0 +1,96 @@
+.circles-container {
+    position: absolute;
+    left: 808px;
+    top: 332px
+}
+.circles-box{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circles-planet-image {
+    position: absolute;
+    height: 296px;
+}
+.circles-back {
+    position: absolute;
+    height: 400px;
+    width: 405px;
+    border-radius: 100%;
+    background-color: #1E1E20;
+}
+.circles-in-1 {
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+    border: 0.5px solid #323232
+}
+.circles-in-2 {
+    position: absolute;
+    height: 335px;
+    width: 335px;
+    border-radius: 100%;
+    border: 0.5px solid #323232
+}
+.circles-out {
+    position: absolute;
+    height: 478px;
+    width: 480px;
+    border-radius: 100%;
+    box-shadow: inset 0vw 0vw 3vw #212124
+}
+.circles-introTextPlanet {
+    position: absolute;
+}
+.circles-out-blur {
+    position: absolute;
+    height: 478px;
+    width: 480px;
+    border-radius: 100%;
+    box-shadow: 0vw 0vw 1px #121213
+}
+.circles-capsule {
+    position: absolute;
+    display: flex;
+    width: 70px;
+    height: 26px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 436px;
+    margin-right: 40px;
+}
+.circles-capsule-text {
+    color: black;
+    font-family: BebasNeue-Regular;
+    font-size: 13px;
+    margin-top: 1px;
+}
+.circles-capsule-circle {
+    width: 11px;
+    height: 11px;
+    border-radius: 100%;
+    margin-left: 7px;
+    box-shadow: -1px -1px 12px #858585;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circles-capsule-circle-inner {
+    width: 5px;
+    height: 5px;
+    background-color: #E75626;
+    border-radius: 100%;
+}
+.IntroAnimatedRing {
+    position: absolute;
+    width: 444px;
+    height: 444px;
+    align-items: center;
+    justify-content: center;
+}
+

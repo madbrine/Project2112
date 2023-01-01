@@ -1,0 +1,53 @@
+.intro-anime-container {
+    display: flex;
+    justify-content: center;
+}
+.intro-anime-point-body {
+    background-color: #E75626;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+}
+.intro-anime-point-1 {
+    position: absolute;
+    height: 444px;
+    animation:
+        point-1-animation
+        10s ease-in
+        reverse forwards;
+}
+.intro-anime-point-2 {
+    position: absolute;
+    height: 444px;
+    animation:
+        point-2-animation
+        10s ease-in
+        reverse forwards;
+}
+.intro-anime-box {
+    padding: 1px;
+}
+
+.intro-anime-ring {
+    stroke: #E75626;
+    fill: none;
+    stroke-width: 1px;
+    stroke-linecap: round;
+    animation: ring-animation 10s ease-out forwards;
+}
+
+@keyframes ring-animation {
+    0% {
+        stroke-dasharray: 0 1833.58;
+    }
+}
+@keyframes point-1-animation {
+    0% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes point-2-animation {
+    0% {
+        transform: rotate(180deg);
+    }
+}

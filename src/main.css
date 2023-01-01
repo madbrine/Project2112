@@ -1,0 +1,14 @@
+.main-button {
+    background-color: #E75626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    font-family: BebasNeue-Regular;
+    padding: 6px 20px 5px 20px;
+    font-size: 18px;
+    margin-top:3px;
+    margin-bottom:3px;
+    color: #fff;
+    border: none
+}

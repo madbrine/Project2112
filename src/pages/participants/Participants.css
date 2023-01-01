@@ -1,0 +1,36 @@
+.par-container {
+    margin-top: 94px;
+    display: flex;
+}
+.par-header {
+    font-family: BebasNeue-Regular;
+    color: #E75626;
+    font-size: 31px;
+    margin-bottom: 7px;
+}
+.par-description-text {
+    width: 370px;
+    font-family: AvenirNextCyr-Regular;
+    font-size: 14px;
+}
+.par-form-container {
+    margin-top: 30px;
+}
+.par-form-text {
+    font-family: BebasNeue-Regular;
+    font-size: 22px;
+}
+.par-form-userdata {
+    text-transform: uppercase;
+    font-family: BebasNeue-Regular;
+    font-size: 25px;
+    color: #E75626;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+.par-form-button{
+    width: 155px;
+}
+.par-list-container {
+
+}

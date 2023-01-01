@@ -1,0 +1,31 @@
+
+.intro-textPlanet-planet-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 332px;
+    left: 808px;
+}
+.intro-textPlanet-planet{
+    position: absolute;
+    height: 296px;
+    width: 296px;
+    background-size: 296px 296px;
+}
+.intro-textPlanet-text {
+
+    background-position:left 605px bottom -5px;
+    background-color: #fff;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 296px, 296px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: BebasNeue-Regular;
+    font-weight: 400;
+    font-size: 110px;
+    text-aling: left;
+    -webkit-font-smoothing: antialiased;
+    width: 1000px;
+}

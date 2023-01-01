@@ -1,0 +1,47 @@
+.intro-container {
+    margin-top: 170px;
+    margin-bottom: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+.intro-big-text {
+    font-family: BebasNeue-Regular;
+    font-size: 110px;
+    height: 110px;
+    position: relative;
+}
+.intro-big-text-container {
+}
+.intro-description-text {
+    margin-top: 273px;
+    width: 360px;
+    font-family: AvenirNextCyr-Regular;
+    font-size: 14px;
+}
+.intro-stats-container {
+    margin-top: 26px;
+    text-align: center;
+}
+.intro-stats-header {
+    font-family: BebasNeue-Regular;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.intro-stats-box {
+    border-bottom: 0.5px solid #D2C4C4;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    width: 190px;
+}
+.intro-stats-table-numbers {
+    font-family: BebasNeue-Regular;
+    font-size: 26px;
+    margin-bottom: 8px;
+    color: #E75626;
+}
+.intro-stats-table-text {
+    font-family: BebasNeue-Regular;
+    font-size: 15px;
+    font-weight: 100;
+}
