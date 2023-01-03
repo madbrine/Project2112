@@ -14,6 +14,7 @@
     display: flex;
     border-bottom: 1px solid #fff;
     padding-bottom: 7px;
+    margin-right: 20px;
 }
 .partab-list-header-name {
     flex: 8;
@@ -38,19 +39,67 @@
 }
 .partab-userdata-name {
     flex: 8;
+    display: flex;
+    text-align: left;
     font-family: AvenirNextCyr-Regular;
     font-size: 12px;
+    border: none;
+    background: none;
     color: #E75626;
 }
 .partab-userdata-email {
     flex: 10;
+    display: flex;
+    text-align: left;
     font-family: AvenirNextCyr-Regular;
     font-size: 12px;
     color: #E75626;
+    border: none;
+    background: none;
 }
 .partab-userdata-wallet {
     flex: 10;
+    display: flex;
+    text-align: left;
     font-family: AvenirNextCyr-Regular;
     font-size: 12px;
     color: #E75626;
+    border: none;
+    background: none;
+}
+
+.partab-titledata-name {
+    flex: 8;
+    display: flex;
+    text-align: left;
+    font-family: AvenirNextCyr-Regular;
+    font-size: 12px;
+    color: #ffffff;
+}
+.partab-titledata-email {
+    flex: 10;
+    display: flex;
+    text-align: left;
+    font-family: AvenirNextCyr-Regular;
+    font-size: 12px;
+    color: #ffffff;
+}
+.partab-titledata-wallet {
+    flex: 10;
+    display: flex;
+    text-align: left;
+    font-family: AvenirNextCyr-Regular;
+    font-size: 12px;
+    color: #ffffff;
+}
+.partab-remove {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+.partab-scroll {
+    max-height: 505px;
+    overflow: scroll;
+    padding-right: 20px;
 }
