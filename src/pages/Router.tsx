@@ -7,7 +7,7 @@ function Router() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Registration/>}/>
+                <Route path="/Project2112" element={<Registration/>}/>
                 <Route path="/Project2112/participants" element={<Participants/>}/>
             </Routes>
         </BrowserRouter>
