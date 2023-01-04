@@ -37,7 +37,7 @@ const Registration = () => {
                        onChange={(event) => setInputEmail(event.target.value)}
                 />
                 <div className='reg-form-button'>
-                    <Link to='/participants' state={{name: inputName, email: inputEmail}} style={{textDecoration: 'none'}} >
+                    <Link to='/Project2112/participants' state={{name: inputName, email: inputEmail}} style={{textDecoration: 'none'}} >
                         <button onClick={() => inputSender} className='main-button'>GET EARLY ACCESS</button>
                     </Link>
                 </div>
