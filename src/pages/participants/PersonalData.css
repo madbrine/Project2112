@@ -1,0 +1,43 @@
+.personaldata-container {
+    position: fixed;
+    background-color: #171719;
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+    top: 0;
+    left: 0;
+}
+.personaldata-circles {
+    position: absolute;
+    top: 300px;
+    right:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.personaldata-items {
+    padding-top: 110px;
+    padding-left: 60px;
+}
+.personaldata-main {
+    font-family: BebasNeue-Regular;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.personaldata-desc {
+    font-family: BebasNeue-Regular;
+    font-size: 20px;
+}
+.personaldata-name {
+    font-family: BebasNeue-Regular;
+    font-size: 30px;
+    color: #e75626;
+    margin-bottom: 20px;
+}
+.personaldata-button {
+    border: none;
+    background: none;
+    position: absolute;
+    left: 270px;
+    top: 175px;
+}

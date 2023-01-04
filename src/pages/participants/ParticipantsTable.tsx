@@ -3,6 +3,7 @@ import './ParticipantsTable.css'
 import '../../main.css'
 import { useState, useEffect } from "react";
 import axios from "axios";
+import PersonalData from "./PersonalData";
 
 const ParticipantsTable = (props: any) => {
 
@@ -19,6 +20,7 @@ const ParticipantsTable = (props: any) => {
         }
         loadPost();
     }, []);
+    const [personalDataState, setPersonalDataState] = useState(false)
 
 
 
@@ -28,6 +30,7 @@ const ParticipantsTable = (props: any) => {
     // @ts-ignore
     return (
         <div className='partab-container'>
+            {personalDataState && <PersonalData setPersonalDataState={setPersonalDataState} userdata={props.userdata}></PersonalData>}
             <div className='partab-header'>
                 PARTICIPATION LISTING (ENABLE ONLY FOR PARTICIPANTS)
             </div>
@@ -44,9 +47,12 @@ const ParticipantsTable = (props: any) => {
             </div>
             <div className="partab-scroll">
             {props.listState && <div className='partab-userdata-container'>
-                    <button className='partab-userdata-name'>{props.userdata[0]}</button>
-                    <button className='partab-userdata-email'>{props.userdata[1]}</button>
-                    <button className='partab-userdata-wallet'>{props.userdata[2]}</button>
+                    <button className='partab-userdata-name'
+                            onClick={()=>setPersonalDataState(true)}>{props.userdata[0]}</button>
+                    <button className='partab-userdata-email'
+                            onClick={()=>setPersonalDataState(true)}>{props.userdata[1]}</button>
+                    <button className='partab-userdata-wallet'
+                            onClick={()=>setPersonalDataState(true)}>{props.userdata[2]}</button>
                     <button onClick={()=>props.setListState(false)} className='partab-remove'>
                         <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_46_976)">
