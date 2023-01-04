@@ -1,5 +1,5 @@
 {
-  "homepage": "https://madbrine.github.io/Project2112",
+  "homepage": "https://madbrine.github.io/Project2112/",
   "name": "task-project",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +14,7 @@
     "@usedapp/core": "^1.2.2",
     "axios": "^1.2.2",
     "ethers": "^5.7.2",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.5.0",
@@ -23,6 +24,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
